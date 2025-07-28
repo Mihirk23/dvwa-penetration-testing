@@ -1,6 +1,8 @@
 # DVWA Penetration Testing
 
-This repository documents penetration testing performed on **Damn Vulnerable Web Application (DVWA)** using various techniques including brute-force, command injection, file upload (RCE), SQL injection, and Cross-Site Scripting (XSS).
+
+This repository contains documented exploitation of common web vulnerabilities using **DVWA (Damn Vulnerable Web Application)**. The goal is to demonstrate hands-on skills in offensive security, including brute-force, command injection, RCE via file upload, SQL injection, and XSS attacks.
+
 
 ## Environment Setup
 
@@ -9,10 +11,11 @@ This repository documents penetration testing performed on **Damn Vulnerable Web
 - **DVWA URL**: http://localhost:8080
 - **Security Level**: Low
 - **Tools Used**:
+  - Burp Suite
+  - Nmap
   - Hydra
-  - curl
-  - browser-based manual testing
-  - Kali Linux tools
+  - Firefox Dev Tools
+  - PHP Payloads
 
 
 ## Exploited Vulnerabilities
@@ -92,10 +95,11 @@ This repository documents penetration testing performed on **Damn Vulnerable Web
 
 You can find all relevant screenshots in the [`/screenshots`](./screenshots/) folder.
 
----
+
+This project is intended for educational purposes only. All testing was performed in a controlled environment.
+
 
 ## Author
-
 - **Mihir Kulkarni**
 - **LinkedIn**: https://www.linkedin.com/in/mihir-kulkarni-973762227/
 
